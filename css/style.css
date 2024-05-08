@@ -103,3 +103,11 @@ header nav ul li:hover {
     background-size: cover;
     background-position: center;
 }
+
+@media(min-width:720px){
+    .map{
+        width: 80%;
+        height: 400px;
+    }
+}
+
