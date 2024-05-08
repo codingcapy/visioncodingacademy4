@@ -35,7 +35,7 @@ header nav ul li:hover {
 
 .hero-banner h1,
 .hero-banner p,
-.hero-banner button {
+.hero-banner a {
     z-index: 1;
     /* Ensure text and button are above the overlay */
 }
@@ -137,8 +137,7 @@ header nav ul li:hover {
 }
 
 .about h1,
-.about p,
-.hero-banner button {
+.about p {
     z-index: 1;
     /* Ensure text and button are above the overlay */
 }
