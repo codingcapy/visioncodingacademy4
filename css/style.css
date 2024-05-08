@@ -1,10 +1,9 @@
-
-header nav ul li:hover{
+header nav ul li:hover {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 0px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff;
     transition: all ease-in-out 0.5s;
 }
 
-.nav-element:hover{
+.nav-element:hover {
     text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
     transition: all ease-in-out 0.5s;
 }
@@ -75,4 +74,32 @@ header nav ul li:hover{
     to {
         text-shadow: 0 0 0px rgb(94 234 212), 0 0 0px rgb(94 234 212), 0 0 0px rgb(94 234 212), 0 0 8px rgb(94 234 212), 0 0 30px rgb(94 234 212), 0 0 40px rgb(94 234 212), 0 0 50px rgb(94 234 212);
     }
+}
+
+.intro {
+    padding: 30px;
+    background-image: url("../html/images/background2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ad1 {
+    padding: 30px;
+    background-image: url("../html/images/ad1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ad2 {
+    padding: 30px;
+    background-image: url("../html/images/ad2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ad3 {
+    padding: 30px;
+    background-image: url("../html/images/ad3.jpg");
+    background-size: cover;
+    background-position: center;
 }

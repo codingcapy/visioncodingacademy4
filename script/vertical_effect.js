@@ -30,6 +30,12 @@ $(function () {
             easing: 'ease-in-out',
             duration: 800,
         });
+        sr.reveal('.js--fadeInTop', {
+            origin: 'top',
+            distance: '300px',
+            easing: 'ease-in-out',
+            duration: 800,
+        });
     }
     sr.reveal('.js--fadeInLeft', {
         origin: 'left',
