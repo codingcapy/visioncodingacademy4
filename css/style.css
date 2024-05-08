@@ -3,6 +3,10 @@ header nav ul li:hover {
     transition: all ease-in-out 0.5s;
 }
 
+main {
+    overflow-x: hidden;
+}
+
 .nav-element:hover {
     text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
     transition: all ease-in-out 0.5s;
