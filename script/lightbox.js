@@ -23,7 +23,11 @@ images.forEach((image, index) => {
     let currentIndex = index;
 
     function showImage(index) {
-      fullSizeImage.src = images[index].src;
+      fullSizeImage.style.opacity = 0; // Fade out
+      setTimeout(() => {
+        fullSizeImage.src = images[index].src;
+        fullSizeImage.style.opacity = 1; // Fade in
+      }, 300); // Delay to allow fade out transition to complete
     }
 
     leftArrow.addEventListener('click', (event) => {
