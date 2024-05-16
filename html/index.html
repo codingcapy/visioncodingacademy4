@@ -26,7 +26,7 @@
 
 <body>
     <div class="flex flex-col min-h-screen bg-black text-white">
-        <header class="md:flex justify-between bg-black bg-opacity-70 text-white sticky z-50 top-0">
+        <header class="md:flex justify-between bg-black text-white sticky z-50 top-0 timeline-content js--fadeInLeft">
             <div class="flex justify-between md:block px-2">
                 <div class="flex">
                     <a href="./index.html"><img src="./images/yellow1.png" class="w-[60px]" /></a>
@@ -55,7 +55,7 @@
                     </li>
                     <li
                         class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
-                        <a href="./forum/index.html">Forum</a>
+                        <a href="./forum/index.html">Gallery</a>
                     </li>
                     <li
                         class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
@@ -83,18 +83,21 @@
             </div>
         </header>
         <main class="flex-1 mx-auto">
-            <section class="hero-banner">
-                <h1 class="timeline-content js--fadeInBottom">
-                    <span class="glow text-5xl md:text-9xl">Code Your</span>
-                    <span class="glow-teal pl-2 text-5xl md:text-9xl text-teal-300">Vision</span>
+            <section class="hero-banner bg-white">
+                <h1 class="timeline-content js--fadeInRight">
+                    <img src="./images/Banner-black words2.png" alt="" class="">
+                    <div class="flex flex-col mx-auto">
+                        <p class="text-center text-2xl pb-5 drop-shadow">Discover the Power to Transform the Future with
+                            Every Line
+                            of
+                            Code</p>
+                        <a href="./courses/index.html"
+                            class="mx-auto px-3 py-3 border border-4 rounded border-yellow-300 text-yellow-300 font-bold md:text-2xl hover:bg-yellow-300 hover:text-black transition-all ease duration-500">View
+                            Courses</a>
+                    </div>
                 </h1>
-                <p class="text-2xl pt-5">Discover the Power to Transform the Future</p>
-                <p class="text-2xl pb-5">with Every Line of Code</p>
-                <a href="./courses/index.html"
-                    class="px-3 py-3 my-7 border border-4 rounded border-yellow-300 text-yellow-300 font-bold md:text-2xl hover:bg-yellow-300 hover:text-black transition-all ease duration-500">Vision
-                    Coding
-                    Courses</a>
             </section>
+
             <section class="intro py-20 md:py-32">
                 <div class="max-w-[1000px] mx-auto">
                     <h2 class="timeline-content js--fadeInBottom text-2xl md:text-4xl pb-4 text-teal-300">Who we are
@@ -131,7 +134,8 @@
             <div class="bg-black text-white flex flex-col">
                 <section class="md:flex py-10 md:py-32">
                     <div class="ad1 px-2 md:px-20 md:py-20 md:h-96">
-                        <h2 class="text-2xl md:text-4xl md:text-center">Industry Expertise in Every Classroom</h2>
+                        <h2 class="text-2xl md:text-4xl md:text-center z-2">Industry Expertise in Every Classroom
+                        </h2>
                         <p class="md:text-center md:text-lg">Our strength is our diverse team of IT industry experts
                             from
                             various sectors. They bring a wealth
@@ -221,19 +225,9 @@
                     </div>
                     <div class="flex flex-col mx-auto">
                         <a href="./courses/index.html"
-                            class="px-3 py-3 my-10 border border-4 rounded border-yellow-300 text-yellow-300 font-bold md:text-2xl hover:bg-yellow-300 hover:text-black transition-all ease duration-500 mx-auto">Click
-                            for Details</a>
+                            class="px-3 py-3 my-10 border border-4 rounded border-yellow-300 text-yellow-300 font-bold md:text-2xl hover:bg-yellow-300 hover:text-black transition-all ease duration-500 mx-auto">Learn
+                            More about Courses</a>
                     </div>
-                </section>
-                <section class="md:max-w-[1000px] mx-auto py-10 md:py-20">
-                    <img src="./images/member1_jay3.png" class="w-[250px] mx-auto md:float-right rounded-full" />
-                    <h2 class="pl-2 text-4xl md:text-6xl py-10">Meet Our Director</h2>
-                    <p class="pl-2 md:text-lg">At Vision Coding Academy, I, Jay, blend my tech know-how with educational
-                        insights
-                        to create a
-                        dynamic learning environment. My journey in tech and teaching isn't just about imparting
-                        knowledge;
-                        it's about igniting a passion for innovation and problem-solving in our students.</p>
                 </section>
                 <section class="py-10 bg-gray-600 bg-opacity-70 text-yellow-300">
                     <div class="max-w-[1000px] mx-auto">
@@ -271,17 +265,19 @@
                     </div>
                 </section>
                 <section class="max-w-[1000px] mx-auto py-10">
-                    <h3 class="pl-2 text-2xl md:text-6xl py-10">Our Team</h3>
+                    <h3 class="pl-2 text-2xl md:text-6xl py-10 text-center">Our Team</h3>
                     <p class="pl-2 md:text-lg">Meet the driving force behind Vision Coding Academy: a diverse team of IT
                         industry
                         experts
                         specializing in software, hardware, frontend, backend, automation, UI/UX, and web design. Each
                         member brings a unique blend of theoretical knowledge and practical experience, tailored to meet
                         the
-                        individual needs and aspirations of our students. It's this wealth of expertise and personalized
-                        approach that truly distinguishes Vision Coding Academy from others in the field.</p>
+                        individual needs and aspirations of our students. </p>
                 </section>
-                <section class="py-10 md:grid md:grid-cols-5 md:pl-20 mx-auto">
+                <a href="./about/index.html"
+                    class="px-3 py-3 my-10 border border-4 rounded border-yellow-300 text-yellow-300 font-bold md:text-2xl hover:bg-yellow-300 hover:text-black transition-all ease duration-500 mx-auto">Learn
+                    more about us</a>
+                <!-- <section class="py-10 md:grid md:grid-cols-5 md:pl-20 mx-auto">
                     <div class="md:px-2 py-2">
                         <img src="./images/member1_jay3.png" alt="Jay" class="rounded-full border w-[250px]">
                         <h3 class="pl-2 text-2xl">Jay</h3>
@@ -348,7 +344,7 @@
                         <h3 class="pl-2 text-2xl">Andy</h3>
                         <h2 class="pl-2 text-lg">Mentor @ AWS amazon</h2>
                     </div>
-                </section>
+                </section> -->
                 <section class="py-10">
                     <h2 class="text-2xl md:text-6xl text-center py-10 text-yellow-200">Our Future Goals</h2>
                     <div class="max-w-[1000px] mx-auto">
