@@ -143,6 +143,23 @@ main {
     .approach {
         height: 750px;
     }
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 48px;
+        color: white;
+        cursor: pointer;
+        user-select: none;
+      }
+      
+      .left-arrow {
+        left: 100px;
+      }
+      
+      .right-arrow {
+        right: 100px;
+      }
 }
 
 .about {
@@ -160,18 +177,43 @@ main {
 
 .about::before {
     content: "";
-    /* Create a pseudo-element for overlay */
     position: absolute;
 
     left: 0;
     width: 100%;
     height: 700px;
     background-color: rgba(0, 0, 0, 0.65);
-    /* Adjust the opacity to darken/lighten */
 }
 
 .about h1,
 .about p {
     z-index: 1;
-    /* Ensure text and button are above the overlay */
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.lightbox-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.lightbox.fade-in {
+    opacity: 1;
+}
+
+.lightbox.fade-out {
+    opacity: 0;
 }
