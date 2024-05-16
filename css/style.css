@@ -43,6 +43,18 @@ main {
     /* Ensure text and button are above the overlay */
 }
 
+.approach {
+    height: 700px;
+    padding: 30px;
+    background-image: url("../html/images/banner-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .glow {
     color: #fff;
     text-align: center;
