@@ -13,7 +13,7 @@ main {
 }
 
 .hero-banner {
-    height: 700px;
+    height: 300px;
     padding: 30px;
     background-image: url("../html/images/banner-bg.png");
     background-size: cover;
@@ -25,6 +25,30 @@ main {
 }
 
 .hero-banner::before {
+    content: "";
+    /* Create a pseudo-element for overlay */
+    position: absolute;
+
+    left: 0;
+    width: 100%;
+    height: 700px;
+
+    /* Adjust the opacity to darken/lighten */
+}
+
+.hero-banner2 {
+    height: 300px;
+    padding: 30px;
+    background-image: url("../html/images/banner-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-banner2::before {
     content: "";
     /* Create a pseudo-element for overlay */
     position: absolute;
@@ -136,6 +160,10 @@ main {
 }
 
 @media(min-width:720px) {
+    .hero-banner {
+        height: 700px;
+    }
+
     .map {
         width: 100%;
         height: 400px;
