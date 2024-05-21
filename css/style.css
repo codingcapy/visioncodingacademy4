@@ -1,3 +1,35 @@
+@font-face {
+    font-family: 'Mulish-Medium';
+    src: url(../font/Mulish/static/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Mulish-Light';
+    src: url(../font/Mulish/static/Mulish-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Antonio-Regular';
+    src: url(../font/Antonio/static/Antonio-Regular.ttf);
+}
+
+.mulish-light {
+    font-family: 'Mulish-Light';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Antonio-Regular';
+}
+
+p,
+button {
+    font-family: 'Mulish-Medium'
+}
+
 header nav ul li:hover {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 0px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff;
     transition: all ease-in-out 0.5s;
@@ -168,9 +200,11 @@ main {
         width: 100%;
         height: 400px;
     }
+
     .approach {
         height: 750px;
     }
+
     .arrow {
         position: absolute;
         top: 50%;
@@ -179,15 +213,15 @@ main {
         color: white;
         cursor: pointer;
         user-select: none;
-      }
-      
-      .left-arrow {
+    }
+
+    .left-arrow {
         left: 100px;
-      }
-      
-      .right-arrow {
+    }
+
+    .right-arrow {
         right: 100px;
-      }
+    }
 }
 
 .about {
