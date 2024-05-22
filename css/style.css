@@ -155,40 +155,81 @@ main {
 }
 
 .ad1 {
+    position: relative;
     padding: 30px;
     background-image: url("../html/images/ad1.jpg");
     background-size: cover;
     background-position: center;
 }
 
-/* .ad1::before {
+.ad1::before {
     content: "";
     position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-} */
+}
 
 .ad1 h2,
 .ad1 p,
 .ad1 a {
-    z-index: 1;
+    position: relative;
+    z-index: 99;
     /* Ensure text and button are above the overlay */
 }
 
 .ad2 {
+    position: relative;
     padding: 30px;
     background-image: url("../html/images/ad2.jpg");
     background-size: cover;
     background-position: center;
 }
 
+.ad2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ad2 h2,
+.ad2 p,
+.ad2 a {
+    position: relative;
+    z-index: 99;
+    /* Ensure text and button are above the overlay */
+}
+
 .ad3 {
+    position: relative;
     padding: 30px;
     background-image: url("../html/images/ad3.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.ad3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ad3 h2,
+.ad3 p,
+.ad3 a {
+    position: relative;
+    z-index: 99;
+    /* Ensure text and button are above the overlay */
 }
 
 @media(min-width:720px) {
