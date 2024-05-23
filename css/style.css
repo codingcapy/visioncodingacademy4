@@ -100,7 +100,7 @@ main {
 }
 
 .approach {
-    height: 1200px;
+    height: 1350px;
     padding: 30px;
     background-image: url("../html/images/banner-bg.png");
     background-size: cover;
@@ -232,6 +232,60 @@ main {
     /* Ensure text and button are above the overlay */
 }
 
+.about {
+    height: 300px;
+    padding: 30px;
+    background-image: url("../html/images/about2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.about h1,
+.about p {
+    z-index: 1;
+}
+
+.summercamp {
+    height: 400px;
+    padding: 30px;
+    background-image: url("../html/images/summercamp.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 5px #000;
+}
+
+.summercamp::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.summercamp h1,
+.summercamp p {
+    z-index: 1;
+}
+
 @media(min-width:720px) {
     .hero-banner {
         height: 700px;
@@ -243,7 +297,23 @@ main {
     }
 
     .approach {
-        height: 750px;
+        height: 900px;
+    }
+
+    .about {
+        height: 700px;
+    }
+
+    .about::before {
+        height: 700px;
+    }
+
+    .summercamp {
+        height: 700px;
+    }
+
+    .summercamp::before {
+        height: 700px;
     }
 
     .arrow {
@@ -263,62 +333,6 @@ main {
     .right-arrow {
         right: 100px;
     }
-}
-
-.about {
-    height: 700px;
-    padding: 30px;
-    background-image: url("../html/images/about2.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 0 0 5px #000;
-}
-
-.about::before {
-    content: "";
-    position: absolute;
-
-    left: 0;
-    width: 100%;
-    height: 700px;
-    background-color: rgba(0, 0, 0, 0.65);
-}
-
-.about h1,
-.about p {
-    z-index: 1;
-}
-
-.summercamp {
-    height: 700px;
-    padding: 30px;
-    background-image: url("../html/images/summercamp.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 0 0 5px #000;
-}
-
-.summercamp::before {
-    content: "";
-    position: absolute;
-
-    left: 0;
-    width: 100%;
-    height: 700px;
-    background-color: rgba(0, 0, 0, 0.65);
-}
-
-.summercamp h1,
-.summercamp p {
-    z-index: 1;
 }
 
 .lightbox {
