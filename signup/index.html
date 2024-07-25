@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author: Paul Kim
+    Date: May 8, 2024
+    Version: 1.0.0
+    Vision Coding Academy Website Ver 4 Signup Page
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Vision Coding</title>
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/png" sizes="24x24" href="favicon-24x24.png">
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <script src="../../script/tailwindcss.js"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/hover-effect.css">
+    <script src="../../script/jquery-3.7.0.min.js"></script>
+    <script src="../../script/scrollreveal-3.3.1.min.js"></script>
+    <script src="../../script/menu.js" defer="defer"></script>
+    <script src="../../script/vertical_effect.js" defer="defer"></script>
+    <script src="../../script/hover-effect.js" defer></script>
+</head>
+
+<body>
+    <div class="flex flex-col min-h-screen bg-black text-white">
+        <header class="md:flex justify-between bg-black bg-opacity-70 text-white sticky z-50 top-0">
+            <div class="flex justify-between md:block px-2">
+                <div class="flex">
+                    <a href="../index.html"><img src="../images/yellow1.png" class="w-[60px]" /></a>
+                    <a href="../index.html">
+                        <div class="nav-element hidden md:block py-5 text-2xl">Vision Coding Academy</div>
+                    </a>
+                    <a href="../index.html">
+                        <div class="md:hidden py-5 text-lg">Vision Coding</div>
+                    </a>
+                </div>
+                <button id="hamburger-menu" class="text-3xl md:hidden" id="hamburger-menu">&#x2630;</button>
+            </div>
+            <nav id="main-nav">
+                <ul class="md:flex">
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:hidden">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="../about/index.html">About</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="../courses/index.html">Courses</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="../schedule/index.html">Schedule</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="../gallery/index.html">Gallery</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="../contact/index.html">Contact</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 text-center md:hidden rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="../login/index.html">Login</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 text-center md:hidden rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="#">Signup</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="flex">
+                <a href="../login/index.html"
+                    class="nav-element hidden px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                    Login
+                </a>
+                <a href="#"
+                    class="nav-element hidden px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                    Signup
+                </a>
+            </div>
+        </header>
+        <main class="flex-1 mx-auto">
+            <div class="bg-black text-white flex flex-col mx-auto">
+                <section class="max-w-[1000px] mx-auto py-5">
+                    <h3 class="pl-2 text-5xl md:text-6xl py-10 text-center">Signup</h3>
+                    <p class="text-center md:text-lg">Sign up to take <span class="text-teal-300">full advantage</span>
+                        of our <span class="text-teal-300">features</span></p>
+                    <p class="text-center md:text-lg">as a member of <span class="text-teal-300">Vision Coding
+                            Academy</span></p>
+                </section>
+                <section class="py-5 md:pl-20 mx-auto">
+                    <form action="#" class="flex flex-col mx-auto">
+                        <div class="flex flex-col">
+                            <label for="title">Email</label>
+                            <input type="text" name='title' id='title' placeholder="Email" required
+                                class="px-2 border rounded-lg border-slate-700 py-1 w-[300px]" />
+                        </div>
+                        <div class="flex flex-col my-2">
+                            <label for="content">Username</label>
+                            <input type="text" name='content' id='content' placeholder='Username' required rows="10"
+                                cols="40" class="px-2 border rounded-lg border-slate-700 py-1 w-[300px]">
+                        </div>
+                        <div class="flex flex-col my-2">
+                            <label for="content">Password</label>
+                            <input type="text" name='content' id='content' placeholder='Password' required rows="10"
+                                cols="40" class="px-2 border rounded-lg border-slate-700 py-1 w-[300px]">
+                        </div>
+                        <div class="flex flex-col my-2">
+                            <label for="content">Confirm Password</label>
+                            <input type="text" name='content' id='content' placeholder='Confirm Password' required
+                                rows="10" cols="40" class="px-2 border rounded-lg border-slate-700 py-1 w-[300px]">
+                        </div>
+                        <button
+                            class="px-3 py-3 my-7 border border-4 rounded border-yellow-300 text-yellow-300 font-bold md:text-2xl hover:bg-yellow-300 hover:text-black transition-all ease duration-500">Sign
+                            Up</button>
+                        <p class="text-lg text-center">or <a href="../login/index.html"
+                                class="text-teal-300 font-bold">Login</a>
+                        </p>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <footer class="px-5 py-10 md:py-20 max-w-[1000px] mx-auto">
+            <div class="py-10 md:grid md:grid-cols-4">
+                <div>
+                    <img src="../images/vision-coding-icon.jpg" class="" />
+                    <a href="./index.html">
+                        <div class="py-2 text-2xl">Vision Coding Academy</div>
+                    </a>
+                </div>
+                <div class="flex flex-col">
+                    <h3 class="text-2xl md:text-4xl pb-5">Menu</h3>
+                    <a href="../index.html" class="py-2 md:text-lg">Home</a>
+                    <a href="../courses/index.html" class="py-2 md:text-lg">Courses</a>
+                    <a href="../about/index.html" class="py-2 md:text-lg">About Us</a>
+                    <a href="../contact/index.html" class="py-2 md:text-lg">Contact</a>
+                </div>
+                <div>
+                    <h3 class="text-2xl md:text-4xl pb-5">Contact Us</h3>
+                    <p class="py-2 md:text-lg">2885 Barnet Hwy, Coquitlam, BC V3B 1C1</p>
+                    <p class="py-2 md:text-lg">2428 Haywood Ave, West Vancouver, BC V7V 1Y1</p>
+                    <p class="py-2 md:text-lg">+1 604-900-3707</p>
+                    <p class="py-2 md:text-lg">visioncodingca@gmail.com</p>
+                </div>
+                <div class="md:pl-32">
+                    <h3 class="text-2xl md:text-4xl pb-5">Socials</h3>
+                    <div class="py-2">
+                        <a href="https://www.instagram.com/vision.coding/" class="nav-element py-2 md:text-lg"
+                            target="_blank">Instagram</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="https://www.facebook.com/profile.php?id=61556365105748" target="_blank"
+                            class="nav-element py-2 md:text-lg">Facebook</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="http://pf.kakao.com/_LaRxfxj" target="_blank"
+                            class="nav-element py-2 md:text-lg">Kakaotalk</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="http://wa.me/+16049003707" target="_blank"
+                            class="nav-element py-2 md:text-lg">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-5">
+                &copy; 2024 by Vision Coding Academy.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

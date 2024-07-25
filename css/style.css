@@ -1,3 +1,29 @@
+
+/*Credit to 한국전기안전공사*/
+@font-face {
+    font-family: 'Electric-Safety';
+    src: url(../font/전기안전체_R/Electric-Safety-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'EnvironmentR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/EnvironmentR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'G-Market-Sans-Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url(../font/Noto_Sans_KR/static/NotoSansKR-Regular.ttf);
+}
+
 @font-face {
     font-family: 'Mulish-Medium';
     src: url(../font/Mulish/static/Mulish-Medium.ttf);
@@ -13,21 +39,81 @@
     src: url(../font/Antonio/static/Antonio-Regular.ttf);
 }
 
-.mulish-light {
-    font-family: 'Mulish-Light';
+
+@font-face {
+    font-family: 'Gabia';
+    src: url(../font/GabiaOndam/GabiaOndam.ttf);
+}
+
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dolbomche_R';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/Dolbomche_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ycomputer-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ycomputer-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YiSunShinDotumM';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YiSunShinDotumM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF_HailSnow';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HailSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dalmoori';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/dalmoori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DosKor';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/DosKor.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kr-font {
+    font-family: 'G-Market-Sans-Medium';
 }
 
 h1,
 h2,
 h3,
 h4,
-h5 {
-    font-family: 'Antonio-Regular';
+h5,
+a {
+    font-family: 'Electric-Safety';
 }
 
 p,
 button {
-    font-family: 'Mulish-Medium'
+    font-family: 'EnvironmentR'
 }
 
 header nav ul li:hover {
@@ -45,9 +131,9 @@ main {
 }
 
 .hero-banner {
-    height: 300px;
+    height: 400px;
     padding: 30px;
-    background-image: url("../html/images/banner-bg.png");
+    background-image: url("../images/banner-bg.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -71,7 +157,7 @@ main {
 .hero-banner2 {
     height: 300px;
     padding: 30px;
-    background-image: url("../html/images/banner-bg.png");
+    background-image: url("../images/banner-bg.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -100,9 +186,9 @@ main {
 }
 
 .approach {
-    height: 1350px;
+    height: 1450px;
     padding: 30px;
-    background-image: url("../html/images/banner-bg.png");
+    background-image: url("../images/banner-bg.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -148,8 +234,9 @@ main {
 }
 
 .intro {
+    height: 1100px;
     padding: 30px;
-    background-image: url("../html/images/background2.jpg");
+    background-image: url("../images/background2.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -157,7 +244,7 @@ main {
 .ad1 {
     position: relative;
     padding: 30px;
-    background-image: url("../html/images/ad1.jpg");
+    background-image: url("../images/ad1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -176,14 +263,14 @@ main {
 .ad1 p,
 .ad1 a {
     position: relative;
-    z-index: 99;
+    z-index: 25;
     /* Ensure text and button are above the overlay */
 }
 
 .ad2 {
     position: relative;
     padding: 30px;
-    background-image: url("../html/images/ad2.jpg");
+    background-image: url("../images/ad2.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -202,14 +289,14 @@ main {
 .ad2 p,
 .ad2 a {
     position: relative;
-    z-index: 99;
+    z-index: 25;
     /* Ensure text and button are above the overlay */
 }
 
 .ad3 {
     position: relative;
     padding: 30px;
-    background-image: url("../html/images/ad3.jpg");
+    background-image: url("../images/ad3.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -228,14 +315,14 @@ main {
 .ad3 p,
 .ad3 a {
     position: relative;
-    z-index: 99;
+    z-index: 25;
     /* Ensure text and button are above the overlay */
 }
 
 .about {
     height: 300px;
     padding: 30px;
-    background-image: url("../html/images/about2.jpg");
+    background-image: url("../images/about2.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -260,9 +347,9 @@ main {
 }
 
 .summercamp {
-    height: 400px;
+    height: 500px;
     padding: 30px;
-    background-image: url("../html/images/summercamp.jpg");
+    background-image: url("../images/summercamp.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -273,11 +360,11 @@ main {
 }
 
 .summercamp::before {
+    height: 500px;
     content: "";
     position: absolute;
     left: 0;
     width: 100%;
-    height: 400px;
     background-color: rgba(0, 0, 0, 0.65);
 }
 
@@ -286,9 +373,96 @@ main {
     z-index: 1;
 }
 
+.summercamp a {
+    text-shadow: 0 0 0px;
+}
+
+.summercamp-korean {
+    height: 960px;
+    padding: 10px;
+    background-image: url("../images/whistler2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summercamp-korean::before {
+    height: 960px;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.summercamp-korean h1,
+.summercamp-korean p,
+.summercamp-korean .location {
+    z-index: 1;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 25;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.lightbox-image {
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.lightbox.fade-in {
+    opacity: 1;
+}
+
+.lightbox.fade-out {
+    opacity: 0;
+}
+
+#pop-up{
+    position:fixed;
+    top:0px;
+    left:0px;    
+    width:100vw;
+    height:100vh;
+	z-index:1000;
+	background-color: rgba(5, 5, 5, 0.8);    
+	font-size:.85em;
+}
+#pop-up-div{
+	position:absolute;
+	left:50%;
+	top:40%;
+	transform:translate(-50%, -50%);
+	max-width:400px;
+	min-width:300px;
+	padding:10px;
+	border-radius:10px;
+	background-color: rgb(46, 46, 46);
+	color:white;
+}
+
 @media(min-width:720px) {
     .hero-banner {
         height: 700px;
+    }
+
+    .intro {
+        height: 1150px;
     }
 
     .map {
@@ -316,6 +490,14 @@ main {
         height: 700px;
     }
 
+    .summercamp-korean {
+        height: 2000px;
+    }
+
+    .summercamp-korean::before {
+        height: 2000px;
+    }
+
     .arrow {
         position: absolute;
         top: 50%;
@@ -333,7 +515,6 @@ main {
     .right-arrow {
         right: 100px;
     }
-}
 
 .lightbox {
     position: fixed;
@@ -373,3 +554,8 @@ main {
     bottom: 0;
     z-index: -1;
  }
+    #pop-up-div{
+        max-width:1000px;
+        top:50%;
+    }
+}
