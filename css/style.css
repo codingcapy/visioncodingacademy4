@@ -456,6 +456,16 @@ main {
 	color:white;
 }
 
+#background-video {
+    width: 100vw;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
 @media(min-width:720px) {
     .hero-banner {
         height: 700px;
@@ -544,16 +554,6 @@ main {
 .lightbox.fade-out {
     opacity: 0;
 }
-
-#background-video {
-    width: 100vw;
-    object-fit: cover;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
- }
     #pop-up-div{
         max-width:1000px;
         top:50%;
