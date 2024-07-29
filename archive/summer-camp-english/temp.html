@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author: Paul Kim
+    Date: May 8, 2024
+    Version: 1.0.0
+    Vision Coding Academy Website Ver 4 Home Page
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Camp | Vision Coding</title>
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/png" sizes="24x24" href="favicon-24x24.png">
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <script src="../script/tailwindcss.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/hover-effect.css">
+    <script src="../script/jquery-3.7.0.min.js"></script>
+    <script src="../script/scrollreveal-3.3.1.min.js"></script>
+    <script src="../script/menu.js" defer="defer"></script>
+    <script src="../script/vertical_effect.js" defer="defer"></script>
+    <script src="../script/lightbox.js" defer="defer"></script>
+</head>
+
+<body>
+    <div class="flex flex-col min-h-screen bg-black text-white">
+        <header class="md:flex justify-between bg-black text-white sticky z-50 top-0">
+            <div class="flex justify-between md:block px-2">
+                <div class="flex">
+                    <a href="../index.html"><img src="../images/yellow1.png" class="w-[60px]" /></a>
+                    <a href="../index.html">
+                        <div class="nav-element py-5 text-lg md:text-2xl">Vision Coding Academy</div>
+                    </a>
+                </div>
+                <button id="hamburger-menu" class="text-3xl md:hidden" id="hamburger-menu">&#x2630;</button>
+            </div>
+            <nav id="main-nav">
+                <ul class="md:flex">
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300 text-lg md:hidden">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300 text-lg md:text-2xl">
+                        <a href="../about/index.html">About</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300 text-lg md:text-2xl">
+                        <a href="../summer-camp/index.html">Summer Camp<span
+                                class="text-green-500 px-2 pb-5 text-sm font-bold">NEW!</span></a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300 text-lg md:text-2xl">
+                        <a href="../courses/index.html">Courses</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300 text-lg md:text-2xl">
+                        <a href="../schedule/index.html">Schedule</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300 text-lg md:text-2xl">
+                        <a href="../gallery/index.html">Gallery</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 md:py-5 pb-7 text-center md:block rounded-md transition ease-in-out duration-300 text-lg md:text-2xl">
+                        <a href="../contact/index.html">Contact</a>
+                    </li>
+                    <!-- <li
+                        class="px-5 py-2 text-center md:hidden rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="../login/index.html">Login</a>
+                    </li>
+                    <li
+                        class="px-5 py-2 text-center md:hidden rounded-md transition ease-in-out duration-300  md:text-2xl">
+                        <a href="../signup/index.html">Signup</a>
+                    </li> -->
+                </ul>
+            </nav>
+            <div class="flex">
+                <!-- <a href="../login/index.html"
+                    class="nav-element hidden px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                    Login
+                </a>
+                <a href="../signup/index.html"
+                    class="nav-element hidden px-5 py-2 md:py-5 text-center md:block rounded-md transition ease-in-out duration-300  md:text-2xl">
+                    Signup
+                </a> -->
+            </div>
+        </header>
+        <main class="flex-1 px-2 py-2">
+            <img src="../images/summercampeng.jpg" alt="" class="w-[100%] h-auto">
+            <div class="my-10 md:my-20 flex flex-col mx-auto">
+                <h2 class="text-4xl md:text-6xl md:text-6xl text-center py-10">Sign Up For Vision Coding
+                    Summer Camp</h2>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQHGB5QnmootAB4SZZAsrpPzBRe9mxTpqUKD_8oCgxnmmduA/viewform?usp=sf_link"
+                    target="_blank"
+                    class="px-3 py-3 border border-4 rounded border-yellow-200 text-yellow-200 font-bold md:text-2xl hover:bg-yellow-200 hover:text-black transition-all ease duration-500 mx-auto w-[250px] text-center">
+                    Sign Up</a>
+            </div>
+            <div id="schedule-img" class="block max-w-[100%] h-auto">
+            </div>
+        </main>
+        <footer class="px-5 py-10 md:py-20 max-w-[1000px] mx-auto">
+            <div class="md:grid md:grid-cols-4">
+                <div>
+                    <img src="../images/vision-coding-icon.jpg" class="nav-element mx-auto md:mx-0" />
+                    <a href="./index.html">
+                        <div class="nav-element py-2 text-2xl text-center md:text-left">Vision Coding Academy</div>
+                    </a>
+                </div>
+                <div class="flex flex-col py-10 md:py-0 text-center md:text-left">
+                    <h3 class="text-2xl md:text-4xl pb-5">Menu</h3>
+                    <a href="../index.html" class="py-2 text-lg md:text-2xl">Home</a>
+                    <a href="../courses/index.html" class="py-2 text-lg md:text-2xl">Courses</a>
+                    <a href="../about/index.html" class="py-2 text-lg md:text-2xl">About Us</a>
+                    <a href="../contact/index.html" class="py-2 text-lg md:text-2xl">Contact</a>
+                </div>
+                <div class="py-10 md:py-0 text-center md:text-left">
+                    <h3 class="text-2xl md:text-4xl pb-5">Contact Us</h3>
+                    <p class="py-2 text-lg md:text-2xl">2885 Barnet Hwy, Coquitlam, BC V3B 1C1</p>
+                    <p class="py-2 text-lg md:text-2xl">2428 Haywood Ave, West Vancouver, BC V7V 1Y1</p>
+                    <p class="py-2 text-lg md:text-2xl">+1 604-900-3707</p>
+                    <p class="py-2 text-lg md:text-2xl">visioncodingca@gmail.com</p>
+                </div>
+                <div class="md:pl-32 py-10 md:py-0 text-center md:text-left">
+                    <h3 class="text-2xl md:text-4xl pb-5">Socials</h3>
+                    <div class="py-2">
+                        <a href="https://www.instagram.com/vision.coding/" class="nav-element py-2 text-lg md:text-2xl"
+                            target="_blank">Instagram</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="https://www.facebook.com/profile.php?id=61556365105748" target="_blank"
+                            class="nav-element py-2 text-lg md:text-2xl">Facebook</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="http://pf.kakao.com/_LaRxfxj" target="_blank"
+                            class="nav-element py-2 text-lg md:text-2xl">Kakaotalk</a>
+                    </div>
+                    <div class="py-2">
+                        <a href="http://wa.me/+16049003707" target="_blank"
+                            class="nav-element py-2 text-lg md:text-2xl">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-5">
+                &copy; 2024 by Vision Coding Academy.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
